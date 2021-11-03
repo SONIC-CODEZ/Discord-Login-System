@@ -27,7 +27,7 @@ if __name__ == '__main__':
         # USERNAME
         print("----------------------------------------------")
         input_for_username = input('Enter a username: ')
-        arukovic = Discord(input_for_username, 143, '467', 'abc@gmail.com')
+        arukovic = Discord(input_for_username, 143, '467', 'abc@gmail.com') # Template
         arukovic.username = input_for_username
         print('Generating your formatted username...')
         time.sleep(2)
