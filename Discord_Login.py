@@ -13,13 +13,6 @@ class Discord:
         if int(self.age) < 13:
             exit("Underage!")
 
-    def checkEmail(self):
-        if '@gmail.com' not in self.email or '@ymail.com' not in self.email:
-            exit("Invalid email!")
-
-        elif '@gmail.com' in self.email or '@ymail.com' in self.email:
-            print('Updated!')
-
     def checkPassword(self):
         if int(self.password) > 100:
             pass
@@ -51,8 +44,6 @@ if __name__ == '__main__':
         time.sleep(1)
         input_for_email = input('Enter your email: ')
         arukovic.email = input_for_email
-        # TODO: FIX EMAIL
-        # arukovic.checkEmail()
         # SHOW RESULTS
         print(f'Generating results @{arukovic.username}')
         time.sleep(2)
