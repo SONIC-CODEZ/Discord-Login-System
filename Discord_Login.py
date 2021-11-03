@@ -8,13 +8,11 @@ class Discord:
         self.age = age
         self.email = email
         
-#c
+
     def checkAge(self):
         if int(self.age) < 13:
             exit("Underage!")
 
-        elif '@gmail.com' in self.email or '@ymail.com' in self.email:
-            print('Updated!')
 
     def checkPassword(self):
         if int(self.password) > 100:
